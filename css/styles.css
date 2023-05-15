@@ -1,0 +1,100 @@
+/* Elements */
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 2.6rem;
+  }
+  
+  h2 {
+    font-family: monospace;
+    font-size: 1.2rem;
+  }
+  
+  h4 {
+    font-size: 1.04rem;
+  }
+  
+  /* Main Banner */
+  
+  #main-banner {
+    background-color: black;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+  }
+  
+  .main-banner-img {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main-banner-info {
+    color: white;
+    text-align: center;
+  }
+  
+  @media (max-width: 600px) {
+    .main-banner-info {
+      height: 360px;
+      padding: 35px 15px;
+      padding-top: 80px;
+    }
+  
+    .company-logo {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  .main-banner-info > a {
+    margin: 12px;
+  }
+  
+  /* About Me */
+  
+  #about-me {
+    background-color: aliceblue;
+    padding: 15px 10px;
+    margin: 8px;
+  }
+  
+  .about-me-description {
+    position: relative;
+  }
+  
+  #my-picture {
+    float: left;
+    width: 30%;
+    margin-right: 12px;
+    margin-bottom: 12px;
+  }
+  
+  #my-description {
+    font-family: cursive;
+  }
+  
+  .about-me-skill {
+    padding: 12px;
+  }
+  
+  /* Work Experience */
+  
+  .company-logo {
+    width: 75%;
+  }
+  
+  /* Education */
+  
+  /* My Projects */
+  
+  .project-container {
+    background-color: black;
+    padding: 0.2rem;
+  }
+  
+  .project-img {
+    width: 100%;
+  }
+  
