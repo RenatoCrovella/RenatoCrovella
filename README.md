@@ -1,4 +1,5 @@
 ### Hi there 👋
+### This repository is still under construction, but it'll be ready soon!
 
 <!--
 I am Renato Crovella (he/him/his), a Web and Gamedeveloper graduated in Marketing and specialized in Digital Marketing.
