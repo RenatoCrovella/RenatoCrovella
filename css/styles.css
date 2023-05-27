@@ -1,7 +1,7 @@
 /* Elements */
 
 h1 {
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: bold;
     font-size: 2.6rem;
   }
@@ -12,7 +12,11 @@ h1 {
   }
   
   h4 {
-    font-size: 1.04rem;
+    font-size: 1.05rem;
+  }
+
+  p{
+    font-family: 'Merriweather', serif;
   }
   
   /* Main Banner */
@@ -71,10 +75,6 @@ h1 {
     margin-bottom: 12px;
   }
   
-  #my-description {
-    font-family: cursive;
-  }
-  
   .about-me-skill {
     padding: 12px;
   }
@@ -86,7 +86,21 @@ h1 {
   }
   
   /* Education */
-  
+
+  #education{
+    padding: 7px 0;
+  }
+
+  .education-item{
+    background-color: aliceblue;
+    justify-content: center;
+  }
+
+  .badge{
+    width: 100%;
+    height: auto;
+    padding: 3px;
+  }
   /* My Projects */
   
   .project-container {
