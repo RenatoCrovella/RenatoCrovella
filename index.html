@@ -11,10 +11,14 @@
   <!--CSS-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Fonts -->
   <link
     href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Roboto:wght@100;300;400;700&display=swap"
-    rel="stylesheet">
-  <link rel="stylesheet" href="./css/styles.css" />
+    rel="stylesheet"/>
+  <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"/>
+  <!-- My CSS -->
+    <link rel="stylesheet" href="./css/styles.css" />
   <title>Renato Crovella Portfolio Web</title>
 </head>
 
@@ -97,7 +101,7 @@
     <div class="row">
       <div class="col about-me-description">
         <img id="my-picture" src="./img/aboutMePicture.jpg" />
-        <h3>About Me</h3>
+        <h3 style="text-align: center;"><strong><i class="bi bi-lightbulb-fill"></i>About Me</strong></h3>
         <p>
           Are you looking for Digital Transformation for your business? Or do you want to empower your brand, increasing
           your sales and being the top of mind of your customers? Both? You've found the right person!
@@ -147,30 +151,34 @@
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row skills-container">
       <div class="col-3-lg col-5 about-me-skill rounded">
-        <h4>Organization & Management Skills</h4>
+        <i class="bi bi-calendar-check"></i>
+        <h4 style="text-align: center;"><strong>Organization & Management Skills</strong></h4>
         <p>
           I have strong Organizational and Management skills, having Trello and Excel as my main partners to automatize
           and get rid of the boring stuff in my personal and working lives.
         </p>
       </div>
       <div class="col-3-lg col-5 about-me-skill rounded">
-        <h4>Communication Skills</h4>
+        <i class="bi bi-chat-text"></i>
+        <h4 style="text-align: center;"><strong>Communication Skills</strong></h4>
         <p>
           Fluent in 3 languages (Portuguese, English and Italian) and graduated in Marketing and Theater, I have a whole
           skillset when it comes to Communication.
         </p>
       </div>
       <div class="col-3-lg col-5 about-me-skill rounded">
-        <h4>IT Skills</h4>
+        <i class="bi bi-pc-display-horizontal"></i>
+        <h4 style="text-align: center;"><strong>IT Skills</strong></h4>
         <p>
           Using computers since my 7 years old, I developed a close relationship with Technology. I'm currently studying
           Web Development and I develop Games as my main hobby since the pandemic.
         </p>
       </div>
       <div class="col-3-lg col-5 about-me-skill rounded">
-        <h4>Problem-Solver</h4>
+        <i class="bi bi-bullseye"></i>
+        <h4 style="text-align: center;"><strong>Problem-Solver</strong></h4>
         <p>
           As a "Necessary Generalist", I'm always learning something new and trying to apply my diverse skills on
           critical situations and help others.
@@ -183,10 +191,10 @@
 
   <div id="work-experience" class="container-fluid">
     <div class="row">
-      <h3 class="section-title">Work Experience</h3>
+      <h3 class="section-title"><i class="bi bi-briefcase-fill"></i>Work Experience</h3>
       <div class="card mb-3"">
           <div class=" row g-0">
-        <div class="col-md-4">
+        <div class="col-md-4" style="align-self: center; text-align: center;">
           <img src="https://www.pitman-training.ie/common/images/icons/pitman-logo-new.png"
             class="img-fluid rounded-start company-logo" alt="Pitman Training logo" />
         </div>
@@ -195,7 +203,8 @@
             <h5 class="card-title">Students Coach - Pitman Traininig (Feb/23 - May/23)</h5>
             <p class="card-text">
               - Help students with enrollment, payments, studies and tests; <br>
-              - Optimize processes and generate Training insights;
+              - Optimize processes and generate Training insights; <br>
+              - Work collaboratively with the Sales and Marketing teams to guarantee the best student's progress 
             </p>
           </div>
         </div>
@@ -203,7 +212,7 @@
     </div>
     <div class="card mb-3"">
           <div class=" row g-0">
-      <div class="col-md-4">
+      <div class="col-md-4" style="align-self: center; text-align: center;">
         <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/SGS_SA.svg/1200px-SGS_SA.svg.png"
           class="img-fluid rounded-start company-logo" alt="SGS logo" />
       </div>
@@ -221,7 +230,7 @@
   </div>
   <div class="card mb-3"">
           <div class=" row g-0">
-    <div class="col-md-4">
+    <div class="col-md-4" style="align-self: center; text-align: center;">
       <img
         src="data:image/png;base64,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"
         class="img-fluid rounded-start company-logo" alt="George P. Johnson logo" />
@@ -230,7 +239,7 @@
       <div class="card-body">
         <h5 class="card-title">Digital Strategist / Project Coordinator - George P. Johnson(May/21 - April/22)</h5>
         <p class="card-text">
-          - Managed B2B projects with multiple LATAM stakeholders, including business partners, agencies, and other
+          - Managed B2B projects with multiple LATAM stakeholders, including business partners, Marketing agencies, and other
           departments;<br>
           - Produced reports to the team, providing necessary documentation such as performance tracking, dashboards,
           KPI presentations, financial databases and set up metrics;<br>
@@ -245,7 +254,7 @@
   </div>
   <div class="card mb-3"">
           <div class=" row g-0">
-    <div class="col-md-4">
+    <div class="col-md-4" style="align-self: center; text-align: center;">
       <img
         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAsVBMVEUAAAD///+pp6bc3Nzh4eGlpaTf3dywqqb59fKGgoD5+fnCwsL18/Glo6DFw8KSi4ZHPjR4cWoXAAA7NjJmYl5gXVotIRNRUVCXlZQeDQCKh4MbBADW09C5t7QLAADp6elRTEcmGQMPCACemZQbGxpAPTl8eHQzMzJHR0cWBwCBf32zsbDU0MttamdZVVJhWlM1LSU+NSxPRjwrJiEyLSklIyNra2saFBCQj46rpJ3y6+V2cmyGAAAEH0lEQVR4nO3bfX/aNhDAceOyLFAgawJrR3hqMtqGAG2XbEn7/l/YEAb7ZN8pdLVJGL/vX8F3OqMPljCyEkUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOCIvQ1xCb8/oVgyOf7+D8+++5W6rIW4jGCCM7i+8GsaeVfFs18YqW9L7OF56L2f7tTDlXFjhx5eF89+u4celuTP534Dx2wUt23r6yoQ98XTTU0r4UP+5DOr0scSe1jCTJPZdDFYTjITyxyHN+O6beAyXgUSck6SmlZ43PPP3bXOPf5UYg9x+G7qr2zrq3QQSMg7GboWJ1a47n1tzsxT18u8SkudaVYegi3G8tRjO6/MmWZ0G9vaLqMdSCi4ddNpICzv3Owz35b5bYH/kaYYBnMtYWiNp7kcQQOj5NZiG1xq46+ivhXfzkBLMHs4kO+xY5QslO7svYdvhM9awkQkdGXgs2w6MUqmdgriP/lN+KIl3ImErzLwRQT+skpmktjXQKwi1nSR2m0cyoA2Dmu19ZLHSA0dwkzjrVToPVzf2F0/Qw8vhDst4U4k3BuBqdfiQrVue6/HKuvdcZg1Uv2FlrBsPKWf+4X7QU9bVe/19VClPfyhcWi4s0vKv6OoZRSotIfjZsq7MUnFtWZY62+7ZHM+yMo3Jlmpmix7WmkPcfiGrzPK+nsUNTqvTQN1jpAl46itte9Es458VaWfmmm6WgOv5Dh61BoOVsN7XzPNsJNRP8N+xzZXfxXIknF0pTVcrD5DodIe4vCNW6mmerW0m60n5G9n6yLmhvZpvoFb0/DKVtrDMu5pPtol3a+R4sJFFPkzzajKHvbPMuq80T170hu7pHuy9imf7+5/e/JAlR08AueZS/1iuckyvITRZRawGiSRq3PPen/GKJ9UmXLWS4cyIH9B1N2Brj8K18n7+8Yvab3UKpm08Hs4cYf218NeNzPREqYiYSkDExFYPBgll4XUbrdQVr/5w656wkRLmIoE/zOUTeWzzWWxhTjULZbNrYKUTA6HnxiH1pOZTQuxCWpzA7O/cbifHk6zI++SI97Gr0p6hoM3in+xJc/xAwkFsVu2VkrGj5vzXW2C8XYzwj9a9ovd9RVokY7c7Q6M7RdnrGWXur+0fmJL9tMEEvLqsWuhRdKfnLPkhOnt3aPyBtj1Bc8odJWuf2P8wFW6uRSDV2m0cGdspy8fleSXu+trMwUGZ5rk8W/2dKvymWb0a8A3l/EtlOHZzvFaTCzBnq1eZq8WSjK7vp6D8r8UL8V57dT23WW0AgmJWm3u7THScuQd+fC7eNFuKgXLHIclzDTzx9xScHimWQ09uZpT+UwTnfVt62dmgfhK775YUsuT/4nwILds9N4VXTPTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABwzP4F6HKNtKZsPGYAAAAASUVORK5CYII="
         class="img-fluid rounded-start company-logo" alt="IBM logo" />
@@ -272,7 +281,7 @@
   <div id="education" class="container">
     <div class="row">
       <div class="education-item" style="text-align: center; padding: 8px;">
-        <h3>My Education</h3>
+        <h3><i class="bi bi-mortarboard-fill"></i>My Education</h3>
       </div>
       <div class="col education-item">
         <h4>Advertising and Propaganda Degree (2017 - 2021) - Completed</h4>
@@ -297,7 +306,7 @@
     </div>
     <div class="row" style="padding-bottom: 8px;">
       <div style="text-align: center; padding: 8px;">
-        <h3>My Certifications</h3>
+        <h3><i class="bi bi-award-fill"></i>My Certifications</h3>
       </div>
       <div class="col">
         <a class="badge"
@@ -352,7 +361,7 @@
 
   <div id="my-projects" class="container">
     <div class="row" style="background-color: darkslategrey;">
-      <h3 class="section-title">My Projects</h3>
+      <h3 class="section-title"><i class="bi bi-brush"></i>My Projects</h3>
       <div class="col-5">
         <div class="container-fluid">
           <div class="row">
@@ -443,7 +452,7 @@
   <div id="shop" class="container">
     <row>
       <div class="col section-title">
-        <h3>Shop</h3>
+        <h3><i class="bi bi-cart4"></i>Shop</h3>
       </div>
       <div class="col">
         <div class="card shop-item" style="width: 20rem;">
@@ -473,7 +482,7 @@
     <div id="contact-container">
       <div class="row">
         <div class="col-lg-3">
-          <h3>Contact Form</h3>
+          <h3><i class="bi bi-megaphone-fill"></i>Contact Form</h3>
           <p>
             Please fill up this form to get in touch with me.
           </p>
