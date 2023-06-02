@@ -85,6 +85,10 @@ h1 {
   
   .about-me-skill {
     padding: 12px;
+    margin: 1rem;
+    border: #080202 double;
+    background-color: #F1D4E5;
+    color: #080202;
   }
   
   /* Work Experience */
@@ -127,6 +131,8 @@ h1 {
     font-family: 'Merriweather', serif;
     font-size: 2rem;
     position: absolute;
+    width: 100%;
+    text-align: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
