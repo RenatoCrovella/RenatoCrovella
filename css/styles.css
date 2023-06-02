@@ -41,6 +41,15 @@ h1 {
     padding-bottom: 8px;
   }
 
+  /* Navbar */
+
+  .header-icon{
+    height: 20px;
+    width: 20px;
+    margin: 8px;
+    color: white;
+  }
+
   /* Main Banner */
   
   #main-banner {
@@ -97,6 +106,7 @@ h1 {
     width: 30%;
     margin-right: 12px;
     margin-bottom: 12px;
+    border-radius: 22%;
   }
   
   .skills-container{
