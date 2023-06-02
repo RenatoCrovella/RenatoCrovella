@@ -20,8 +20,9 @@ h1 {
   }
   
   .section-title{
+    font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: aliceblue;
+    background-color: #73BBC9;
     padding-top: 8px;
     padding-bottom: 8px;
   }
@@ -66,7 +67,7 @@ h1 {
   /* About Me */
   
   #about-me {
-    background-color: aliceblue;
+    background-color: #FCE9F1;
     padding: 15px 10px;
     margin: 8px;
   }
@@ -99,7 +100,7 @@ h1 {
   }
 
   .education-item{
-    background-color: aliceblue;
+    background-color: #FCE9F1;
     justify-content: center;
   }
 
@@ -111,12 +112,24 @@ h1 {
   /* My Projects */
   
   .project-container {
-    background-color: black;
+    background-color: #080202;
     padding: 0.2rem;
+    align-items: center;
+    align-content: center;
+    position: relative;
   }
   
   .project-img {
     width: 100%;
+  }
+
+  .project-title{
+    font-family: 'Merriweather', serif;
+    font-size: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 
   .blog-post{
@@ -135,7 +148,7 @@ h1 {
   /* Shop */
 
   #shop{
-    padding-bottom: 8px;
+    padding: 8px 0 8px 0;
   }
 
   .shop-item{
@@ -145,8 +158,8 @@ h1 {
   /* Contact Me */
 
 #contact-container{
-  background-color: #ABD9FF;
-  color: #146C94;
+  background-color: #73BBC9;
+  color: #080202;
 }
 
 .form-text{
