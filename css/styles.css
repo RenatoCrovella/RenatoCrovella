@@ -1,5 +1,10 @@
 /* Elements */
 
+body{
+  width: 100%;
+  background-color: #F7FFE5;
+}
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -42,6 +47,10 @@ h1 {
   }
 
   /* Navbar */
+
+  .header-icons{
+    padding-right: 10px;
+  }
 
   .header-icon{
     height: 20px;
@@ -107,6 +116,7 @@ h1 {
     margin-right: 12px;
     margin-bottom: 12px;
     border-radius: 22%;
+    border: 0.5rem double #98A8F8;
   }
   
   .skills-container{
