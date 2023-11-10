@@ -1,8 +1,7 @@
 /* Elements */
-html,
+
 body{
   width: 100%;
-  height: 100%
   background-color: #F7FFE5;
 }
 
@@ -27,7 +26,7 @@ h1 {
   }
 
   p{
-    font-family: 'Merriweather', serif;
+    font-family: 'Montserrat', sans-serif;
   }
 
   i{
@@ -100,15 +99,16 @@ h1 {
   /* About Me */
   
   #about-me {
-    background-color: #FCE9F1;
+    display: flex;
+    background-color: #fce9f15d;
     padding: 15px 10px;
-    margin: 8px;
     justify-content: center;
-    align-items: center;
+    border-radius: 5%;
   }
   
   .about-me-description {
     position: relative;
+    clear: right;
   }
   
   #my-picture {
@@ -121,10 +121,9 @@ h1 {
   }
   
   .skills-container{
-    width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: stretch;
     align-content: center;
     justify-content: center;
   }
@@ -133,7 +132,7 @@ h1 {
     padding: 12px;
     margin: 1rem;
     border: #080202 double;
-    background-color: #F1D4E5;
+    background-color: #B4CDE6;
     color: #080202;
     text-align: center;
   }
@@ -218,6 +217,9 @@ h1 {
     padding: 5px;
   }
 
+  .shop-item img{
+    height: 58vh;
+  }
   /* Contact Me */
 
 #contact-container{
