@@ -11,7 +11,7 @@ Where do you find me?
 </ul>
 <br>
 What do I do?
-<ul> 
+<ul style="list-style-type: none"> 
 <li>✈️ Living abroad since 2022</li>
 <li>🎓 Pursuing a MBA in Software Engineering at Universidade de São Paulo (remote)</li>
 <li>🗣️ Fluent in 3 languages (English, Italian, Portuguese - learning Dutch as a fourth language!)</li>
