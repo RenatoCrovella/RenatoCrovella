@@ -11,13 +11,15 @@ Where do you find me?
 </ul>
 <br>
 What do I do?
-✈️ Living abroad since 2022
-🎓 Pursuing a MBA in Software Engineering at Universidade de São Paulo (remote)
-🗣️ Fluent in 3 languages (English, Italian, Portuguese - learning Dutch as a fourth language!)
-📝 Writter, with 2 books published on Amazon (Portuguese only)
-💻 Web developer and digital strategist
-🎮 Playing (and developing) games as a hobby
-🎶 I love Rock'n Roll and Italian pop songs. My favorite band is Imagine Dragons ❤️
-🏳️‍🌈 Active member of the LGBTQIAPN+ community
+<ul> 
+<li>✈️ Living abroad since 2022</li>
+<li>🎓 Pursuing a MBA in Software Engineering at Universidade de São Paulo (remote)</li>
+<li>🗣️ Fluent in 3 languages (English, Italian, Portuguese - learning Dutch as a fourth language!)</li>
+<li>📝 Writter, with 2 books published on Amazon (Portuguese only)</li>
+<li>💻 Web developer and digital strategist</li>
+<li>🎮 Playing (and developing) games as a hobby</li>
+<li>🎶 I love Rock'n Roll and Italian pop songs. My favorite band is Imagine Dragons ❤️</li>
+<li>🏳️‍🌈 Active member of the LGBTQIAPN+ community</li>
+</ul>
 <br>
 ### Please feel free to check out my repositories and reach me out on LinkedIn or by email (address above) 😊
