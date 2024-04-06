@@ -1,8 +1,9 @@
 /* Elements */
 
 body{
+  max-width: 100vw;
   width: 100%;
-  background-color: #F7FFE5;
+  background-color: #2b262a;
 }
 
 h1 {
@@ -18,11 +19,17 @@ h1 {
 
   h3{
     padding: 8px;
+    color: #2b262a;
   }
 
   h4 {
     font-size: 1.05rem;
     padding-bottom: 6px;
+  }
+
+  h5 {
+    padding: 0;
+    margin: 0;
   }
 
   p{
@@ -34,16 +41,31 @@ h1 {
     color: #08020292;
   }
 
+  .row {
+    --bs-gutter-x: 0;
+  }
+
+  .row div {
+    max-width: 100vw;
+  }
+
+  .container-fluid{
+    max-width: 100vw;
+  }
+
   .about-me-skill > i{
     font-size: 3rem;
   }
 
   .section-title{
+    max-width: 100vw;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    background-color: #73BBC9;
+    background-color: #7c8acf;
     padding-top: 8px;
     padding-bottom: 8px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   /* Navbar */
@@ -59,6 +81,29 @@ h1 {
     color: white;
   }
 
+  .languages {
+    color: #f7fafb;
+    margin-right: 4rem;
+  }
+
+  .languages a {
+    display: inline-block;
+    padding: 0.4rem;
+    color: #f7fafb;
+    background-color: #7c8acf;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 0.9rem;
+    padding: 0;
+  }
+
+  .languages a:hover {
+    color: #7c8acf;
+    background-color: #f7fafb;
+  }
+
   /* Main Banner */
   
   #main-banner {
@@ -66,6 +111,7 @@ h1 {
     margin: 0;
     margin-bottom: 10px;
     padding: 0;
+    max-width: 100vw;
   }
   
   .main-banner-img {
@@ -81,6 +127,7 @@ h1 {
   
   @media (max-width: 600px) {
     .main-banner-info {
+      max-width: 100vw;
       height: 360px;
       padding: 35px 15px;
       padding-top: 80px;
@@ -100,7 +147,7 @@ h1 {
   
   #about-me {
     display: flex;
-    background-color: #fce9f15d;
+    background-color: #f7fafb;
     padding: 15px 10px;
     justify-content: center;
     border-radius: 5%;
@@ -117,7 +164,7 @@ h1 {
     margin-right: 12px;
     margin-bottom: 12px;
     border-radius: 22%;
-    border: 0.5rem double #98A8F8;
+    border: 0.5rem double #7c8acf;
   }
   
   .skills-container{
@@ -126,19 +173,24 @@ h1 {
     align-items: stretch;
     align-content: center;
     justify-content: center;
+    font-size: 0.8rem;
   }
 
   .about-me-skill {
     padding: 12px;
     margin: 1rem;
-    border: #080202 double;
-    background-color: #B4CDE6;
-    color: #080202;
+    border: #7c8acf double;
+    background-color: #2b262a;
+    color: #f7fafb;
     text-align: center;
   }
 
   .about-me-skill > p{
     text-align: justify;
+  }
+
+  .about-me-skill i {
+    color: #fff274;
   }
   
   /* Work Experience */
@@ -157,6 +209,7 @@ h1 {
 
   .education-item{
     background-color: #FCE9F1;
+    padding: 0 1rem;
     justify-content: center;
   }
 
@@ -167,78 +220,89 @@ h1 {
   .badge{
     width: 100%;
     height: auto;
-    padding: 3px;
+    padding: 0.8rem;
   }
-  /* My Projects */
   
-  .project-container {
-    background-color: #080202;
-    padding: 0.2rem;
+  /* Books */
+
+  #books{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+    align-items: stretch;
+    margin-bottom: 1rem;
+  }
+
+  .book-card{
+    display: flex;
+    justify-content: center;
+    background-color: #f7fafb;
+    width: 25rem;
+    border-radius: 5%;
+    border: 0.5rem double #7c8acf;
+  }
+
+  .book-card .row{
+    --bs-gutter-x: 1.5rem;
+  }
+
+  .book-card-right,
+  .book-card-left {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    align-content: center;
-    position: relative;
-  }
-  
-  .project-img {
-    width: 100%;
+    justify-content: center;
+    margin: 0;
+    padding: 0.4rem;
+    width: 12.2rem;    
   }
 
-  .project-title{
-    font-family: 'Merriweather', serif;
+  .book-img {
+    width: 100%;
+    text-align: center;
+    padding: 0.4rem;
+  }
+
+  .book-price {
+    background-color: #fff274;
+    color: #2b262a;
+    text-align: center;
     font-size: 2rem;
-    position: absolute;
+    font-weight: bold;
+    padding: 0.2rem;
+  }
+
+  .book-title {
+    color: #2b262a;
+    padding: 0.2rem 1rem;
+  }
+
+  .book-tags {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .book-tags p {
+    background-color: #fff274;
+    color: #2b262a;
+    padding: 0.4rem;
+    margin: 0 0 0 0.4rem;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: bold;
+  }
+
+  .book-description {
+    color: #2b262a;
     width: 100%;
+    padding: 0.2rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .book-button {
+    background-color: #7c8acf;
     text-align: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
   }
 
-  .hidden-project{
-    display: none;
-  }
-
-  .blog-post{
-    padding: 6px;
-    text-align: center;
-    margin-bottom: 4px;
-  }
-
-  .blog-text{
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-size: 0.7rem;
-  }
-
-  /* Shop */
-
-  #shop{
-    padding: 8px 0 8px 0;
-  }
-
-  .shop-item{
-    padding: 5px;
-  }
-
-  .shop-item img{
-    height: 58vh;
-  }
-  /* Contact Me */
-
-#contact-container{
-  background-color: #73BBC9;
-  color: #080202;
-}
-
-.form-text{
-    font-size: 0.7rem;
-}
-
-.contact-img{
-    height: 200px;
-}
-
-#contact-container{
-    padding: 3% 5%;
-}
