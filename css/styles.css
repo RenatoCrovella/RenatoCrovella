@@ -6,6 +6,7 @@ body{
   background-color: #2b262a;
 }
 
+
 h1 {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
@@ -84,6 +85,12 @@ h1 {
   .languages {
     color: #f7fafb;
     margin-right: 4rem;
+  }
+
+  .languages img {
+    border-radius: 50%;
+    height: 24px;
+    width: 24px;
   }
 
   .languages a {
