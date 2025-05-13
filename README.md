@@ -18,7 +18,6 @@ What do I do?
 <li>💻 Web developer and digital strategist</li>
 <li>🎮 Playing (and developing) games as a hobby</li>
 <li>🎶 I love Rock'n Roll and Pop songs. My favorite band is Imagine Dragons ❤️</li>
-<li>🏳️‍🌈 Active member of the LGBTQIAPN+ community</li>
 </ul>
 <br>
 ### Please feel free to check out my repositories and reach me out on LinkedIn or by email (address above) 😊
